@@ -1,0 +1,51 @@
+nohup: ignoring input
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.371977  val_mse=0.000458  val_mae=0.017895
+[epoch 02] train_mse=0.000416  val_mse=0.000226  val_mae=0.011814
+[epoch 03] train_mse=0.000289  val_mse=0.000250  val_mae=0.012593
+[done] best_val_mse=0.000226  time=912.2s
+[test] mse=0.000240  mae=0.012812
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p8s4.pt
+[save] history    -> outputs/patch_history_p8s4.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.346825  val_mse=0.002737  val_mae=0.048923
+[epoch 02] train_mse=0.000672  val_mse=0.000231  val_mae=0.011695
+[epoch 03] train_mse=0.000456  val_mse=0.000331  val_mae=0.014717
+[done] best_val_mse=0.000231  time=382.0s
+[test] mse=0.000231  mae=0.012122
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p16s8.pt
+[save] history    -> outputs/patch_history_p16s8.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.744918  val_mse=0.000736  val_mae=0.021853
+[epoch 02] train_mse=0.000736  val_mse=0.000290  val_mae=0.013253
+[epoch 03] train_mse=0.000489  val_mse=0.000240  val_mae=0.012033
+[done] best_val_mse=0.000240  time=172.9s
+[test] mse=0.000177  mae=0.010215
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p32s16.pt
+[save] history    -> outputs/patch_history_p32s16.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.531069  val_mse=0.149608  val_mae=0.386214
+[epoch 02] train_mse=0.011974  val_mse=0.000364  val_mae=0.014977
+[epoch 03] train_mse=0.003048  val_mse=0.000370  val_mae=0.015735
+[done] best_val_mse=0.000364  time=274.2s
+[test] mse=0.000283  mae=0.013871
+[save] checkpoint -> outputs/cross_L252_V12_d256_best_cross_p8.pt
+[save] history    -> outputs/cross_history_cross_p8.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.788950  val_mse=0.000692  val_mae=0.021288
+[epoch 02] train_mse=0.005080  val_mse=0.000362  val_mae=0.015104
+[epoch 03] train_mse=0.000965  val_mse=0.000256  val_mae=0.012379
+[done] best_val_mse=0.000256  time=264.5s
+[test] mse=0.000170  mae=0.009844
+[save] checkpoint -> outputs/cross_L252_V12_d256_best_cross_p16.pt
+[save] history    -> outputs/cross_history_cross_p16.json

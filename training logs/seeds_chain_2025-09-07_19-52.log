@@ -1,0 +1,31 @@
+nohup: ignoring input
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.346825  val_mse=0.002737  val_mae=0.048923
+[epoch 02] train_mse=0.000672  val_mse=0.000231  val_mae=0.011695
+[epoch 03] train_mse=0.000456  val_mse=0.000331  val_mae=0.014717
+[done] best_val_mse=0.000231  time=398.5s
+[test] mse=0.000231  mae=0.012122
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p16s8_seed42.pt
+[save] history    -> outputs/patch_history_p16s8_seed42.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.381807  val_mse=0.000400  val_mae=0.015988
+[epoch 02] train_mse=0.000486  val_mse=0.000228  val_mae=0.011666
+[epoch 03] train_mse=0.000405  val_mse=0.000238  val_mae=0.012109
+[done] best_val_mse=0.000228  time=386.2s
+[test] mse=0.000188  mae=0.010633
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p16s8_seed123.pt
+[save] history    -> outputs/patch_history_p16s8_seed123.json
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.377589  val_mse=0.001079  val_mae=0.028296
+[epoch 02] train_mse=0.000555  val_mse=0.000242  val_mae=0.012142
+[epoch 03] train_mse=0.000384  val_mse=0.000389  val_mae=0.016127
+[done] best_val_mse=0.000242  time=382.1s
+[test] mse=0.000367  mae=0.016161
+[save] checkpoint -> outputs/patch_L252_V12_d256_best_p16s8_seed777.pt
+[save] history    -> outputs/patch_history_p16s8_seed777.json

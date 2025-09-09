@@ -1,0 +1,4 @@
+nohup: ignoring input
+fish: Expected a command, but found end of the statement
+  python -m src.train_baselines --encoder pointwise --epochs 3 --eval-test --save --tag exp1 ; and
+                                                                                                  ^
