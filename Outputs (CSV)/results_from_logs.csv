@@ -1,0 +1,13 @@
+log,encoder,tag,test_mse,test_mae,label
+seeds_chain_2025-09-07_19-52.log,,,0.000231,0.012122,unknown
+seeds_chain_2025-09-07_19-52.log,patch,p16s8_seed42,0.000188,0.010633,patch:p16s8_seed42
+seeds_chain_2025-09-07_19-52.log,patch,p16s8_seed123,0.000367,0.016161,patch:p16s8_seed123
+sweep_chain_2025-09-07_19-13.log,,,0.00024,0.012812,unknown
+sweep_chain_2025-09-07_19-13.log,patch,p8s4,0.000231,0.012122,patch:p8s4
+sweep_chain_2025-09-07_19-13.log,patch,p16s8,0.000177,0.010215,patch:p16s8
+sweep_chain_2025-09-07_19-13.log,patch,p32s16,0.000283,0.013871,patch:p32s16
+sweep_chain_2025-09-07_19-13.log,cross,cross_p8,0.00017,0.009844,cross:cross_p8
+train_chain_2025-09-07_17-41.log,,,0.000598,0.019574,unknown
+train_chain_2025-09-07_17-41.log,pointwise,exp1,0.000231,0.012122,pointwise:exp1
+train_chain_2025-09-07_17-41.log,patch,exp1,0.001284,0.028384,patch:exp1
+train_chain_2025-09-07_17-41.log,ivar,exp1,0.000283,0.013871,ivar:exp1
