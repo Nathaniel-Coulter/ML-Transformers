@@ -1,0 +1,10 @@
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.329608  val_mse=0.000509  val_mae=0.017813
+[epoch 02] train_mse=0.000724  val_mse=0.000231  val_mae=0.011537
+[epoch 03] train_mse=0.000469  val_mse=0.000201  val_mae=0.010749
+[done] best_val_mse=0.000201  time=427.2s
+[test] mse=0.000148  mae=0.009348
+[RESULT] tag=commod_alt_L252_H1_patch_3 test_mse=0.000148 test_mae=0.009348 sharpe=-0.327 turnover=0.697
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/bin/python -m src.train_baselines --npz /home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_commod_alt_L252_H1.npz --encoder patch --d-model 256 --heads 8 --depth 3 --dropout 0.1 --epochs 3 --eval-test --tag commod_alt_L252_H1_patch_3 --patch-len 16 --stride 8
