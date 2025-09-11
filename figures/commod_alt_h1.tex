@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Commodities \& Alternatives sleeve (GLD, DBC, VNQ, EFA, EEM).}
+\label{tab:commod_alt_h1}
+\begin{tabular}{l l r r r r r}
+\toprule
+Model & Config & Val MSE & Test MSE & Test MAE & Sharpe@10bps & Turnover \\
+\midrule
+Point-wise & base & 0.000405 & 0.000414 & 0.017107 & 0.011000 & 0.037000 \\
+PatchTST & $p=8,\ s=4$ & 0.000206 & 0.000127 & 0.008511 & -2.975 & 0.573000 \\
+iTransformer & base & 0.002853 & 0.002476 & 0.042113 & -1.703 & 0.665000 \\
+Cross-Lite & $p=8,\ s=4$ & 0.000186 & 0.000134 & 0.008827 & -1.049 & 0.342000 \\
+\bottomrule
+\end{tabular}
+\end{table}

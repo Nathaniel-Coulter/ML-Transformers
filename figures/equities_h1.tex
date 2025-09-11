@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Equities sleeve (SPY, QQQ, IWM).}
+\label{tab:equities_h1}
+\begin{tabular}{l l r r r r r}
+\toprule
+Model & Config & Val MSE & Test MSE & Test MAE & Sharpe@10bps & Turnover \\
+\midrule
+Point-wise & base & 0.000272 & 0.000196 & 0.010040 & -0.394000 & 0.106000 \\
+PatchTST & $p=8,\ s=4$ & 0.000252 & 0.000190 & 0.010034 & -2.372 & 0.602000 \\
+iTransformer & base & 0.004269 & 0.002784 & 0.040779 & -1.843 & 0.623000 \\
+Cross-Lite & $p=8,\ s=4$ & 0.000282 & 0.000192 & 0.010095 & -2.617 & 0.369000 \\
+\bottomrule
+\end{tabular}
+\end{table}

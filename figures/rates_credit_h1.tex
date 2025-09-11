@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Rates \& Credit sleeve (TLT, IEF, LQD, HYG).}
+\label{tab:rates_credit_h1}
+\begin{tabular}{l l r r r r r}
+\toprule
+Model & Config & Val MSE & Test MSE & Test MAE & Sharpe@10bps & Turnover \\
+\midrule
+Point-wise & base & 0.000309 & 0.000108 & 0.007730 & -1.336 & 0.117000 \\
+PatchTST & $p=8,\ s=4$ & 0.000125 & 0.000097 & 0.008137 & -3.484 & 0.603000 \\
+iTransformer & base & 0.003402 & 0.002427 & 0.039460 & -3.281 & 0.635000 \\
+Cross-Lite & $p=16,\ s=8$ & 0.000191 & 0.000120 & 0.009042 & -1.943 & 0.383000 \\
+\bottomrule
+\end{tabular}
+\end{table}
