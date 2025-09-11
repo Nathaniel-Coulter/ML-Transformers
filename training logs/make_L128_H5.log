@@ -1,0 +1,50 @@
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/prices.parquet with shape (4935, 24)
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_L128_H5.npz | X_train (3560, 128, 12) X_val (461, 128, 12) X_test (463, 128, 12)
+{
+  "parquet": "/home/snowden/Desktop/quant_portfolio_scaffold/outputs/prices.parquet",
+  "npz": "/home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_L128_H5.npz",
+  "shapes": {
+    "X_train": [
+      3560,
+      128,
+      12
+    ],
+    "X_val": [
+      461,
+      128,
+      12
+    ],
+    "X_test": [
+      463,
+      128,
+      12
+    ],
+    "y_train": [
+      3560,
+      12
+    ],
+    "y_val": [
+      461,
+      12
+    ],
+    "y_test": [
+      463,
+      12
+    ]
+  },
+  "tickers": [
+    "DBC",
+    "EEM",
+    "EFA",
+    "GLD",
+    "HYG",
+    "IEF",
+    "IWM",
+    "LQD",
+    "QQQ",
+    "SPY",
+    "TLT",
+    "VNQ"
+  ]
+}
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/bin/python -m src.loader --config /home/snowden/Desktop/quant_portfolio_scaffold/config.json --make-tensors --lookback 128 --horizon 5
