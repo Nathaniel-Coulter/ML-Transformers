@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Main comparison at $H{=}1$, $L{=}252$ (lower error is better; higher Sharpe is better).}
+\label{tab:main_h1}
+\begin{tabular}{l l r r r r r}
+\toprule
+Model & Config & Val MSE & Test MSE & Test MAE & Sharpe@10bps & Turnover \\
+\midrule
+Point-wise & base & 0.000672 & 0.000598 & 0.019574 & — & — \\
+PatchTST & $p=16,\ s=8$ & 0.000214 & 0.000156 & 0.009532 & — & — \\
+iTransformer & base & 0.001739 & 0.001304 & 0.028670 & — & — \\
+Cross-Lite & $p=16,\ s=8$ & 0.000192 & 0.000149 & 0.009253 & — & — \\
+\bottomrule
+\end{tabular}
+\end{table}
