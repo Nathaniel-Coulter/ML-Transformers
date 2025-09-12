@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/snowden/Desktop/quant_portfolio_scaffold/src/train_baselines.py", line 388, in <module>
+    main()
+    ~~~~^^
+  File "/home/snowden/Desktop/quant_portfolio_scaffold/src/train_baselines.py", line 156, in main
+    raise FileNotFoundError(f"npz not found: {args.npz}")
+FileNotFoundError: npz not found: /home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_L252_H1.npz
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/bin/python -m src.train_baselines --npz /home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_L252_H1.npz --encoder patch --patch-len 16 --stride 12 --d-model 256 --heads 8 --depth 3 --dropout 0.1 --epochs 3 --eval-test --dump-preds --tag L252_H1_patch_stride12

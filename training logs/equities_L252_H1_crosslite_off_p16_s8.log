@@ -1,0 +1,11 @@
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/lib/python3.13/site-packages/torch/nn/modules/transformer.py:392: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  warnings.warn(
+[info] Using device: cpu
+[epoch 01] train_mse=0.093300  val_mse=0.005919  val_mae=0.067823
+[epoch 02] train_mse=0.003510  val_mse=0.000898  val_mae=0.025791
+[epoch 03] train_mse=0.000876  val_mse=0.000658  val_mae=0.021577
+[done] best_val_mse=0.000658  time=85.9s
+[test] mse=0.000650  mae=0.021907
+[RESULT] tag=equities_L252_H1_crosslite_off_p16_s8_nocross test_mse=0.000650 test_mae=0.021907 sharpe=-1.187 turnover=0.079
+[save] preds -> outputs/preds/equities_L252_H1_crosslite_off_p16_s8_nocross_{y_true,y_pred,dates}.npy
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/bin/python -m src.train_baselines --npz /home/snowden/Desktop/quant_portfolio_scaffold/outputs/tensors_equities_L252_H1.npz --encoder cross --patch-len 16 --stride 8 --d-model 256 --heads 8 --depth 3 --dropout 0.1 --epochs 3 --eval-test --dump-preds --tag equities_L252_H1_crosslite_off_p16_s8 --cross-disable
