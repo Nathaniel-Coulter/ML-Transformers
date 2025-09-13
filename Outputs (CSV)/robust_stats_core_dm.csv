@@ -1,0 +1,10 @@
+sleeve,compared_to,encoder,dm_stat,dm_pvalue
+equities,patch,pointwise,-7.391615867614746,1.4521717162097048e-13
+equities,patch,ivar,14.617151260375977,0.0
+equities,patch,cross,37.3551139831543,0.0
+rates_credit,patch,pointwise,-0.4019804298877716,0.6876984092139811
+rates_credit,patch,ivar,17.735105514526367,0.0
+rates_credit,patch,cross,1.5276240110397339,0.12660592236370416
+commod_alt,patch,pointwise,22.35500144958496,0.0
+commod_alt,patch,ivar,26.910472869873047,0.0
+commod_alt,patch,cross,25.89632225036621,0.0
