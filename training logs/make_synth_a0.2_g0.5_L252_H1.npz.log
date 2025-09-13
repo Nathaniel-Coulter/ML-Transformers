@@ -1,0 +1,2 @@
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/synth/synth_a0.2_g0.5_L252_H1.npz | Xtr (3748, 252, 2) Xva (500, 252, 2) Xte (500, 252, 2)
+/home/snowden/Desktop/quant_portfolio_scaffold/.venv/bin/python scripts/synth_generate.py --alpha 0.2 --gamma 0.5 --T 5000 --L 252 --H 1
