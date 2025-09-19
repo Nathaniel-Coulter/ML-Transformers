@@ -1,0 +1,3 @@
++ python /home/snowden/Desktop/quant_portfolio_scaffold/scripts/plot_synth.py
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/figs/synth_sharpe_gamma0.5.pdf
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/figs/synth_sharpe_gamma0.95.pdf

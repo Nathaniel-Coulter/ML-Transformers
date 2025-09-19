@@ -1,0 +1,17 @@
++ python /home/snowden/Desktop/quant_portfolio_scaffold/scripts/run_ablate_ivar_compress.py
+[done] equities_L252_H1_ivar_t2c64: OK
+[done] equities_L252_H1_ivar_t2c96: OK
+[done] equities_L252_H1_ivar_t2c128: OK
+[done] equities_L252_H1_ivar_t2c160: OK
+[done] equities_L252_H1_ivar_t2c192: OK
+[done] rates_credit_L252_H1_ivar_t2c64: OK
+[done] rates_credit_L252_H1_ivar_t2c96: OK
+[done] rates_credit_L252_H1_ivar_t2c128: OK
+[done] rates_credit_L252_H1_ivar_t2c160: OK
+[done] rates_credit_L252_H1_ivar_t2c192: OK
+[done] commod_alt_L252_H1_ivar_t2c64: OK
+[done] commod_alt_L252_H1_ivar_t2c96: OK
+[done] commod_alt_L252_H1_ivar_t2c128: OK
+[done] commod_alt_L252_H1_ivar_t2c160: OK
+[done] commod_alt_L252_H1_ivar_t2c192: OK
+[summary] ok=15 fail=0

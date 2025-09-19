@@ -1,0 +1,8 @@
++ python /home/snowden/Desktop/quant_portfolio_scaffold/scripts/run_ablate_crosslite_spillover.py
+[done] equities_L252_H1_crosslite_on_p16_s8: OK
+[done] equities_L252_H1_crosslite_off_p16_s8: OK
+[done] rates_credit_L252_H1_crosslite_on_p16_s8: OK
+[done] rates_credit_L252_H1_crosslite_off_p16_s8: OK
+[done] commod_alt_L252_H1_crosslite_on_p16_s8: OK
+[done] commod_alt_L252_H1_crosslite_off_p16_s8: OK
+[summary] ok=6 fail=0

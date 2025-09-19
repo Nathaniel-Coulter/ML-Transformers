@@ -1,0 +1,4 @@
++ python /home/snowden/Desktop/quant_portfolio_scaffold/scripts/robust_stats_core.py
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/robust_stats_core.csv with 12 rows
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/robust_stats_core_dm.csv with 9 rows
+[ok] wrote /home/snowden/Desktop/quant_portfolio_scaffold/outputs/robustness_main.tex

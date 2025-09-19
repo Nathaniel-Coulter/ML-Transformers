@@ -1,0 +1,14 @@
++ python /home/snowden/Desktop/quant_portfolio_scaffold/scripts/run_ablate_patch_stride.py
+[done] equities_L252_H1_patch_p16_s4: OK
+[done] equities_L252_H1_patch_p16_s8: OK
+[done] equities_L252_H1_patch_p16_s12: OK
+[done] equities_L252_H1_patch_p16_s16: OK
+[done] rates_credit_L252_H1_patch_p16_s4: OK
+[done] rates_credit_L252_H1_patch_p16_s8: OK
+[done] rates_credit_L252_H1_patch_p16_s12: OK
+[done] rates_credit_L252_H1_patch_p16_s16: OK
+[done] commod_alt_L252_H1_patch_p16_s4: OK
+[done] commod_alt_L252_H1_patch_p16_s8: OK
+[done] commod_alt_L252_H1_patch_p16_s12: OK
+[done] commod_alt_L252_H1_patch_p16_s16: OK
+[summary] ok=12 fail=0
